@@ -52,6 +52,7 @@ whiskers:
                 "vim.insert.background": "{{ c.green.hex }}",
                 "vim.visual_line.background": "{{ c.lavender.hex }}",
                 "vim.visual_block.background": "{{ c.mauve.hex }}",
+                "vim.helix_jump_label.foreground": "{{ c.red.hex }}",
                 "vim.replace.background": "{{ c.maroon.hex }}",
                 "background.appearance": "opaque", {#- all others remove app window shadow-backdrop on macOS #}
                 "border": "{{ c.surface0.hex }}",
